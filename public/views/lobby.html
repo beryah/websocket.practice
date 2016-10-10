@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h1>安安, {{name}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <template ngFor let-room [ngForOf]="rooms">
+            <div class="col-md-5 room">
+                <div class="name">{{room.name}}</div>
+                <div class="ppl">人數: {{room.ppl}}/{{room.maxPpl}}</div>
+            </div>
+        </template>
+    </div>
+</div>

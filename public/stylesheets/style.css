@@ -1,0 +1,15 @@
+.room {
+    margin: 5px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;     
+}
+
+.room .name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.room .ppl {
+    font-size: 17px;
+}
