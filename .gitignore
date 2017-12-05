@@ -1,0 +1,4 @@
+.vscode/
+node_modules/
+typings/
+public/scripts/bundle.js
